@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Manrope:wght@500;700&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  width: 380px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #4c4e61;
+}
+
+h2 {
+  padding-top: 50px;
+  font-weight: 200;
+  text-align: center;
+  font-size: 24px;
+  color: #4c4e61;
+}
+
+.ptitulo {
+  text-align: center;
+  color: #a3a5ae;
+  padding: 20px 30px 70px 30px;
+  font-size: 15px;
+}
+
+.cards {
+  margin: 0 auto;
+}
+
+.card {
+  margin-bottom: 50px;
+  height: 250px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 350px;
+  padding: 30px;
+  background-color: white;
+  color: #a3a5ae;
+  -webkit-box-shadow: 7px 7px 12px 1px rgba(82, 82, 87, 0.2), -7px 7px 12px 1px rgba(82, 82, 87, 0.2);
+          box-shadow: 7px 7px 12px 1px rgba(82, 82, 87, 0.2), -7px 7px 12px 1px rgba(82, 82, 87, 0.2);
+}
+
+.card img {
+  display: block;
+  margin: 2em 2em 2em auto;
+}
+
+.card1 {
+  border-top: solid 4px #45d3d3;
+  background-color: white;
+}
+
+.card1 h3 {
+  color: #4c4e61;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.card1 p {
+  font-size: 14px;
+}
+
+.card2 {
+  border-top: solid 4px #ea5353;
+}
+
+.card2 h3 {
+  color: #4c4e61;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.card2 p {
+  font-size: 14px;
+}
+
+.card3 {
+  border-top: solid 4px #fcaf4a;
+}
+
+.card3 h3 {
+  color: #4c4e61;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.card3 p {
+  font-size: 14px;
+}
+
+.card4 {
+  border-top: solid 4px #549ef2;
+}
+
+.card4 h3 {
+  color: #4c4e61;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.card4 p {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 1400px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .ptitulo {
+    font-size: 1.1rem;
+    margin: 20px 400px 20px 400px;
+    max-width: 600px;
+  }
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2em;
+    padding-bottom: 300px;
+  }
+  .card img {
+    width: 60px;
+    bottom: -40px;
+  }
+  .card1 {
+    position: relative;
+    right: -150px;
+    top: 70px;
+  }
+  .card2 {
+    position: relative;
+    top: -40px;
+    right: -150px;
+  }
+  .card3 {
+    position: relative;
+    top: 260px;
+    left: -210px;
+  }
+  .card4 {
+    position: relative;
+    top: 70px;
+    left: -200px;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 20px;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
